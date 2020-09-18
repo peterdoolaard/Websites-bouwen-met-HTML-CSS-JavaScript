@@ -6,6 +6,8 @@ Hier vind je bestanden die horen bij het nog te verschijnen boek Websites bouwen
 3. Internet en websites
    - drie bestanden met eenvoudige voorbeelden van HTML, CSS en JavaScript
 4. Een diepe duik in HTML
+   - nos.nl - bestanden voor het project
+   - speeltuin - losse voorbeelden
 5. Beginnen met CSS
 6. ...
 7. ...

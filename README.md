@@ -1,5 +1,5 @@
 # Websites bouwen met HTML, CSS en JavaScript
-Hier vind je bestanden die horen bij het nog te verschijnen boek Websites bouwen met HTML, CSS en JavaScript. Hier komen ook de links uit het boek te staan.
+Hier vind je bestanden die horen bij het nog te verschijnen boek Websites bouwen met HTML, CSS en JavaScript. Later worden nog per hoofdstuk de links uit het boek toegevoegd.
 ## Inhoud
 1. Inleiding
 2. Je werkplek inrichten

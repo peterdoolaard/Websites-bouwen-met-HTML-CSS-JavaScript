@@ -23,18 +23,20 @@
 <button type="button">Verander de URL</button>
 
 <script>
-const buttonElement = document.querySelector('button'); // een verwijzing naar de knop
-const link = document.querySelector('a'); // een verwijzing naar de link
-let url = link.href; // zet de waarde van het attribuut href in de variabele url
-function veranderLink() {
-  url = prompt('Typ een domeinnaam (zonder http:// of https://)'); // typ een nieuwe waarde voor de variabele url
-  if (url === '' || url === null){ // als het vak leeg is gebleven ('') OF als op cancel is geklikt (null)
-      return // doe niets en ga terug; de variabele url houdt dezelfde waarde
+  const buttonElement = document.querySelector('button'); // een verwijzing naar de knop
+  const link = document.querySelector('a'); // een verwijzing naar de link
+  let url = link.href; // zet de waarde van het attribuut href in de variabele url
+  
+  function veranderLink() {
+    url = prompt('Typ een domeinnaam (zonder http:// of https://)'); // typ een nieuwe waarde voor de variabele url
+    if (url === '' || url === null){ // als het vak leeg is gebleven ('') OF als op cancel is geklikt (null)
+        return // doe niets en ga terug; de variabele url houdt dezelfde waarde
+    }
+    link.textContent = url; // verander de tekst van de link
+    link.href = '//' + url; // verander het attribuut href
   }
-  link.textContent = url; // verander de tekst van de link
-  link.href = '//' + url; // verander het attribuut href
-}
-buttonElement.addEventListener('click', veranderLink);
+  
+  buttonElement.addEventListener('click', veranderLink);
 
 </script>
 

@@ -4,7 +4,7 @@ Hier vind je bestanden die horen bij het nog te verschijnen boek Websites bouwen
 1. Inleiding
 2. Je werkplek inrichten
 3. Internet en websites
-  * eenvoudige voorbeelden van HTML, CSS en JavaScript
+   * drie bestanden met eenvoudige voorbeelden van HTML, CSS en JavaScript
 4. Een diepe duik in HTML
 5. Beginnen met CSS
 6. ...

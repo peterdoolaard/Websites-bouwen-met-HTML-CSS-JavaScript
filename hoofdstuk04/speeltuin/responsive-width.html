@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive images met width</title>
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+<h1>Responsive images</h1>
+<h2>Breedte (width)</h2>
+<img class="width" src="images/waterlelie_640.jpg" alt="Een bloeiende waterlelie." 
+  srcset="images/waterlelie_640.jpg 640w, 
+          images/waterlelie_1280.jpg 1280w, 
+          images/waterlelie_1920.jpg 1920w" 
+  sizes="(max-width: 768px) 100vw, 
+          (max-width: 1440px) 75vw,
+          50vw"
+>
+
+  <script>
+    const widthElm = document.querySelector('.width');
+    let widthElmName = widthElm.currentSrc.split(/(\\|\/)/g).pop();
+    widthElm.insertAdjacentHTML('beforebegin', `<p class="width-name">Bestandsnaam: <span>${widthElmName}</span></p>`);
+    window.addEventListener('resize', () => {
+      document.querySelector('.width-name').remove();
+      widthElmName = widthElm.currentSrc.split(/(\\|\/)/g).pop();
+      widthElm.insertAdjacentHTML('beforebegin', `<p class="width-name">Bestandsnaam: <span>${widthElmName}</span></p>`);
+    });
+  </script>
+</body>
+
+</html>

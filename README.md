@@ -4,10 +4,10 @@ Hier vind je bestanden die horen bij het nog te verschijnen boek Websites bouwen
 1. Inleiding
 2. Je werkplek inrichten
 3. Internet en websites
-   - drie bestanden met eenvoudige voorbeelden van HTML, CSS en JavaScript
+   - drie bestanden met [eenvoudige voorbeelden van HTML, CSS en JavaScript](https://github.com/peterdoolaard/Websites-bouwen-met-HTML-CSS-JavaScript/tree/master/hoofdstuk03)
 4. Een diepe duik in HTML
-   - nos.nl - bestanden voor het project
-   - speeltuin - losse voorbeelden
+   - [nos.nl](https://github.com/peterdoolaard/Websites-bouwen-met-HTML-CSS-JavaScript/tree/master/hoofdstuk04/nos.nl) - bestanden voor het project
+   - [speeltuin](https://github.com/peterdoolaard/Websites-bouwen-met-HTML-CSS-JavaScript/tree/master/hoofdstuk04/speeltuin) - losse voorbeelden
 5. Beginnen met CSS
 6. ...
 7. ...

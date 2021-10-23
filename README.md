@@ -1,5 +1,8 @@
 # Websites bouwen met HTML, CSS en JavaScript
-Hier vind je bestanden die horen bij het nog te verschijnen boek Websites bouwen met HTML, CSS en JavaScript. Later worden nog per hoofdstuk de links uit het boek toegevoegd.
+Hier vind je binnenkort bestanden die horen bij het nog te verschijnen boek Websites bouwen met HTML, CSS en JavaScript. Later worden nog per hoofdstuk de links uit het boek toegevoegd.
+
+Kijk nu al voor werkende voorbeelden op [CodePen](https://codepen.io/dool).
+
 ## Inhoud
 1. Kennismaken met de talen van het web
    * Project: Takenlijst
